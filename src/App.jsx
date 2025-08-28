@@ -4,8 +4,8 @@ import './App.css'
 import Notfound from './pages/Notfound'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
-import Home from './pages/home'
 import Profile from './pages/Profile'
+import Home from './pages/Homes';
 
 function App() {
 
@@ -13,9 +13,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/signup' Component={Signup} />
-        <Route path='/login' Component={Login} />
-        <Route path='/profile' Component={Profile} />
+        <Route path='/signup' element={<  Signup />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/profile' element={< Profile />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>

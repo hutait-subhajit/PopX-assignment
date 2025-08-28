@@ -16,6 +16,7 @@ const Signup = () => {
                         className='w-full py-3 border border-[#CBCBCB]
                     text-[#1D2226] rounded-md px-4 outline-none text-sm leading-[12px]'
                         value={'Marry Doe'}
+                        readOnly
                     />
                     <span className='w-[6rem] pl-[5px]  bg-white absolute text-[13px] leading-[17px] top-0 -translate-y-1/2 left-4 text-[#6C25FF]'>
                         Full Name<span className='text-[#DD4A3D]'>*</span>
@@ -27,6 +28,7 @@ const Signup = () => {
                         className='w-full py-3 border border-[#CBCBCB]
                     text-[#1D2226] rounded-md px-4 outline-none text-sm leading-[12px]'
                         value={'Marry Doe'}
+                        readOnly
                     />
                     <span className='w-[6rem] px-[5px]  bg-white absolute text-[13px] leading-[17px] top-0 -translate-y-1/2 left-4 text-[#6C25FF]'>
                         Phone&nbsp;number<span className='text-[#DD4A3D]'>*</span>
@@ -38,6 +40,7 @@ const Signup = () => {
                         className='w-full py-3 border border-[#CBCBCB]
                     text-[#1D2226] rounded-md px-4 outline-none text-sm leading-[12px]'
                         value={'Marry Doe'}
+                        readOnly
                     />
                     <span className='w-[6rem] px-[5px]  bg-white absolute text-[13px] leading-[17px] top-0 -translate-y-1/2 left-4 text-[#6C25FF]'>
                         Email&nbsp;address<span className='text-[#DD4A3D]'>*</span>
@@ -49,6 +52,7 @@ const Signup = () => {
                         className='w-full py-3 border border-[#CBCBCB]
                     text-[#1D2226] rounded-md px-4 outline-none text-sm leading-[12px]'
                         value={'Marry Doe'}
+                        readOnly
                     />
                     <span className='w-[6rem] px-[5px]  bg-white absolute text-[13px] leading-[17px] top-0 -translate-y-1/2 left-4 text-[#6C25FF]'>
                         Phone&nbsp;number<span className='text-[#DD4A3D]'>*</span>
@@ -60,6 +64,7 @@ const Signup = () => {
                         className='w-full py-3 border border-[#CBCBCB]
                     text-[#1D2226] rounded-md px-4 outline-none text-sm leading-[12px]'
                         value={'Marry Doe'}
+                        readOnly
                     />
                     <span className='w-[6rem] px-[5px]  bg-white absolute text-[13px] leading-[17px] top-0 -translate-y-1/2 left-4 text-[#6C25FF]'>
                         Password<span className='text-[#DD4A3D]'>*</span>
@@ -71,6 +76,7 @@ const Signup = () => {
                         className='w-full py-3 border border-[#CBCBCB]
                     text-[#1D2226] rounded-md px-4 outline-none text-sm leading-[12px]'
                         value={'Marry Doe'}
+                        readOnly
                     />
                     <span className='w-[6rem] px-[5px]  bg-white absolute text-[13px] leading-[17px] top-0 -translate-y-1/2 left-4 text-[#6C25FF]'>
                         Company&nbsp;name
